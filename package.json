@@ -1,9 +1,22 @@
 {
+  "name": "socialmedia-client",
+  "version": "1.0.0",
+  "private": true,
   "dependencies": {
     "@tanstack/react-query": "^5.64.1",
     "axios": "^1.7.9",
     "cors": "^2.8.5",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "socialmedia-client": "file:"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "react-scripts": "^5.0.1"
   }
 }
